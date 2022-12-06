@@ -1,0 +1,45 @@
+/* seccion controles*/
+.Controles {
+    display: grid;
+    grid-template-columns: 200px 260px 150px 180px;
+    width: 800px;
+    justify-content: left;
+    margin-left: 40px;
+	margin-top: 20px;
+}
+
+.Co5ntroles{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 350px;
+	margin-top: 100px;
+	margin-left: 20px;
+	justify-content: right;
+}
+
+.B_Cancelar{width: 100px;}
+.B_Generar{width:100px;}
+
+.Total{
+   /* --Seleccion-Azul: #2E8BC0; */
+/*	width:100px; */
+	margin-left: 28%;
+	border-top: none;
+	border-left: none;
+	border-color: #2E8BC0;
+    
+}
+
+.L_Total{
+	font-weight: bold;
+}
+hr {
+   	border-color: #2E8BC0;
+	
+}
+
+/*------------------*/
+
+.Footer {
+    font-size: 12px;
+    margin-left: 5px;
+}

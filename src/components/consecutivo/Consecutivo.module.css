@@ -1,0 +1,23 @@
+.Header{
+	display: grid;
+	justify-items: right; 
+	width: 800px;
+		
+}
+
+.L_Consecutivo{
+	color: red;
+	margin-right: 20px;
+    font-size: 15px;
+}
+
+.Consecutivo{
+	width: 100px;
+}
+
+.Etiquetas {
+	display:grid;
+	grid-template-columns: 200px 230px 200px 200px;
+	margin-left: 20px;
+	margin-bottom: 5px;
+}

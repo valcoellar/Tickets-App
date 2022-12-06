@@ -1,0 +1,55 @@
+.App {
+  display: grid;
+	justify-items: left; 
+	margin-top: 30px; 
+  height: 600px;
+	--Seleccion-Azul: #2E8BC0;
+/*
+  @import url(http://fonts.googleapis.com/css?family=Pontano+Sans);
+font-family: 'Pontano Sans', Arial, Helvetica, sans-serif;
+*/
+
+/*  text-align: center; */
+  --Seleccion-Azul: #2E8BC0;
+  border-left: solid;
+	border-width: 20px;
+	border-color: var(--Seleccion-Azul);
+	border-radius: 5px;
+/*	width: 800px;  */
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-float infinite 3s ease-in-out;
+  }
+}
+
+/*
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+/*  align-items: center; */
+/*  justify-content: center; */
+/*  font-size: calc(10px + 2vmin);
+}
+*/
+
+.App-link {
+  color: rgb(112, 76, 182);
+}
+
+@keyframes App-logo-float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+/*   new part    */
+

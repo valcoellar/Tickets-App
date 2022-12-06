@@ -1,0 +1,89 @@
+import React from 'react';
+// import logo from './logo.svg';
+//import { Counter } from './features/counter/Counter';
+import { Encabezado } from './components/encabezado/Encabezado'
+import { Consecutivo } from './components/consecutivo/Consecutivo'
+import { Partidas } from './components/partidas/Partidas'
+import { FooterTotal } from './components/FooterTotal/FooterTotal'
+
+
+import './App.css';
+
+function App() {
+  return (
+    <div className="App">
+            
+      <header className="App-header">
+      {/* componente  <encabezado /> */}
+     <Encabezado />
+     { /* componente <consecutivo /> */}
+     <Consecutivo />
+      {/** componente <partida /> */}
+     <Partidas />
+      </header>
+    
+     
+      
+
+      <section id="Footer">
+        {/** componente <FooterTotal /> */}
+    <FooterTotal />
+      </section>
+        
+{/** 
+ *	pendiente el Printable_Contents
+ * verificar si renderea en la misma app html
+ * o crear un nuevo componente para mostrar
+ */}
+
+        {/*
+        <img src={logo} className="App-logo" alt="logo" />
+         <Counter /> 
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <span>
+          <span>Learn </span>
+          <a
+            className="App-link"
+            href="https://reactjs.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            React
+          </a>
+          <span>, </span>
+          <a
+            className="App-link"
+            href="https://redux.js.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Redux
+          </a>
+          <span>, </span>
+          <a
+            className="App-link"
+            href="https://redux-toolkit.js.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Redux Toolkit
+          </a>
+          ,<span> and </span>
+          <a
+            className="App-link"
+            href="https://react-redux.js.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            React Redux
+          </a>
+        </span>
+  */}
+      
+    </div>
+  );
+}
+
+export default App;

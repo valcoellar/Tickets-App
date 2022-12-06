@@ -1,0 +1,45 @@
+
+
+.Campos_line{
+	display: grid;
+	grid-template-columns: 10% 45% 15% 45%;
+	grid-template-rows: auto;
+	justify-content: left; 
+	margin-left: 10px;
+	margin-top: 15px;
+	width: 800px;
+
+}
+
+.I_Cantidad{width:50px;}
+.I_PrecioUnitario{width:80px;}
+.I_Subtotal{width: 80px;}
+.B_Agregar{
+    --Seleccion-Azul: #2E8BC0;
+	background-color: var(--Seleccion-Azul);
+	color: white;
+	font-weight: bold;
+	border-color: white;
+    margin-left: 10px;
+	}
+.B_Eliminar{
+	background-color: red;
+	color: white;
+	font-weight: bold;
+	border-color: white;
+    margin-left: 10px;
+}
+
+.Ok_Partida {
+        background-color: green;
+        color: white;
+        font-weight: bold;
+        border-color: white;
+		margin-left: 10px;
+    
+}
+	
+.I_Descripcion{width: 320px;
+	border-top: none;
+	border-left: none;
+}

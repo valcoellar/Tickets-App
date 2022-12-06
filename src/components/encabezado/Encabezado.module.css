@@ -1,0 +1,12 @@
+.Logo {
+	width: 300px;
+	height: 100px;
+}
+
+.Logo_Bar {
+	display: grid;
+	justify-items: left; 
+
+	width: 800px;
+	height: 100px;
+}
